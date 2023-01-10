@@ -1,0 +1,42 @@
+.sidebar {
+  width: 30vw;
+  height: 100vh;
+  background-color: #f3f3f3;
+  .head {
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #d7d9e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      color: #394166;
+    }
+    .upload {
+      cursor: pointer;
+      display: flex;
+      gap: 7px;
+      h5 {
+        color: #9ca0b2;
+        font-weight: 200;
+      }
+      img {
+        height: 12px;
+      }
+      input {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+      }
+      .file-upload {
+        display: flex;
+        gap: 7px;
+      }
+    }
+  }
+  .document-list {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  .toast-message {
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    width: 25vw;
+    padding: 10px;
+  }
+
+  .toast-message-success {
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    width: 25vw;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.list-item {
+  height: 65px;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+
+  .title {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .sub-title {
+    margin-top: 7px;
+    font-size: 10px;
+    color: #394166;
+  }
+}
+.selected {
+  border-left: 5px solid #4077e4;
+  background-color: white;
+  box-shadow: 6px 2px 16px -15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 2px 16px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 2px 16px -15px rgba(0, 0, 0, 0.75);
+}
